@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "description": "Multiplicative adjustment factors applied on top of locality PSF benchmarks",
+    "source": "domain expertise + PropTiger market reports 2024"
+  },
+  "property_type": {
+    "apartment": 1.00,
+    "villa": 1.20,
+    "independent house": 1.10,
+    "plot": 0.70,
+    "penthouse": 1.35,
+    "studio": 0.90
+  },
+  "age_years": {
+    "0":   1.10,
+    "1":   1.08,
+    "2":   1.06,
+    "3":   1.04,
+    "5":   1.00,
+    "10":  0.95,
+    "15":  0.88,
+    "20":  0.80,
+    "25":  0.72,
+    "30":  0.65,
+    "40":  0.55
+  },
+  "floor": {
+    "ground": 0.92,
+    "1_3":    0.95,
+    "4_7":    1.00,
+    "8_15":   1.05,
+    "16_plus": 1.10
+  },
+  "bhk": {
+    "1":  0.95,
+    "2":  1.00,
+    "3":  1.05,
+    "4":  1.08,
+    "5":  1.10
+  },
+  "amenities": {
+    "parking":  0.04,
+    "gym":      0.03,
+    "pool":     0.05,
+    "gated":    0.03
+  }
+}
